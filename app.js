@@ -17,12 +17,14 @@ let preg2= window.confirm ("Es su primer delito?");
     }else if(preg1==2){
         if(preg2==true){
             let condena2= delitos[1]- recidente;
+            alert("La condena es de " + condena2 + " años");
         }else {
-            alert("LA condena es de 10 años")
+            alert("La condena es de 10 años")
         } 
     }else if(preg1==3){
         if(preg2==true){
             let condena3= delitos[2] - recidente;
+            alert("La condena es de " + condena3 + " años");
         }else {
             alert("La condena es de 8 años")
         }
